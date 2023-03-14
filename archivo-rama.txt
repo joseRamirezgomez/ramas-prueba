@@ -1,0 +1,18 @@
+Card Border Styles
+Crea un nuevo repositorio en GitHub llamado "ramas-prueba".
+• Clona el repositorio en tu equipo con el comando git clone <URL del repositorio>.
+• Crea una nueva rama en tu repositorio local con el comando git checkout -b nueva-rama.
+• Crea un archivo llamado "archivo-rama.txt" en tu repositorio local y agrega algún contenido.
+• Agrega el archivo al área de preparación con el comando git add archivo-rama.txt.
+• Realiza un commit con el comando git commit -m "Agregado archivo-rama.txt a la rama nueva-rama".
+• Empuja la rama nueva-rama y sus cambios al repositorio en GitHub con el comando git push -u origin
+nueva-rama.
+• En la página de GitHub del repositorio, cambia a la rama "nueva-rama" en el menú desplegable de ramas.
+• Crea un archivo llamado "nuevo-archivo-rama.txt" en GitHub y agrega algún contenido.
+• Haz un commit de los cambios en la rama "nueva-rama" en GitHub.
+• Vuelve a tu repositorio local y cambia a la rama principal con el comando git checkout main.
+• Fusiona los cambios de la rama "nueva-rama" en la rama principal con el comando git merge nueva-
+rama.
+• Resuelve cualquier conflicto que surja durante la fusión.
+• Haz un commit de los cambios fusionados en la rama principal con el comando git commit -m "Fusión
+de cambios de la rama nueva-rama en la rama principal".
